@@ -1,0 +1,303 @@
+/* GQB Estilo de letra CSS */
+@font-face {
+	font-family: DancingScript-Regular;
+	src: url(../fuentes/DancingScript-Regular.otf);
+}
+
+body{
+	background:  #02010a;
+	font-family: DancingScript-Regular;
+	}
+	div{
+								font-weight:bold;
+	}
+
+/* Inicio contenido */
+#contenido
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+article{
+	padding: 1%;
+  }
+
+	#menu{
+		font-size: 20px;
+		font-weight:bold;
+		margin-right:10px;
+		text-align:right;
+	}
+	#menu a {
+					color:#fff;
+					text-decoration:none;
+					padding:10px 12px;
+}
+
+	#columna1
+	{
+		background-color:#5b7989;
+		width: 100%;
+		height: 100%;
+		color:#fff;
+		text-align: left;
+		text-shadow: 2px 2px #02010a;
+		font-size: 30px;
+		border-radius: 10px 10px 0 0;
+		padding:10px 12px;
+}
+
+	#columna2
+	{
+		background-color:#82c3a6;
+		width: 100%;
+		height: 100%;
+
+	}
+	#columna2 img{
+		border: 1px solid #ddd;
+		border-radius: 1px;
+		border-color: black;
+		display: block;
+	  width:90%;
+		height: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+    margin-top: 1%;
+	}
+
+	#columna3
+	{
+	background-color: #d5c75f;
+	width: 100%;
+  height: 100%x;
+	}
+
+	#columna4
+	{
+	background-color: #c6d5c5;
+  border-radius: 0 0 10px 10px;
+	width: 100%;
+	height: 100%;
+
+  }
+
+			.contenedor{
+			display: flex;
+			flex-direction: row;
+	    flex-wrap: wrap;
+			background-color: #d5c75f;
+			}
+      .bloque1{
+				order:1;
+        flex-grow: 10;
+				align-self: baseline;
+				display: block;
+				margin-left: 10%;
+			  margin-right: 10%;
+        margin-top: 5%;
+   		}
+				.bloque1 #image1{
+								border: 1px solid #ddd;
+								border-radius: 2px;
+								border-color: #02010a;
+							}
+
+
+      .bloque2{
+				order:2;
+				flex-grow: 10;
+				align-self: baseline;
+				display: block;
+				margin-left: 10%;
+				margin-right: 10%;
+				margin-top: 5%;
+			}
+			.bloque2 #image2{
+				border: 1px solid #ddd;
+				border-radius: 2px;
+				border-color: #02010a;
+							}
+
+/* GQB Fin contenido */
+
+      .contenedor #image1:hover{
+				border: 2px;
+				background-color:#82c3a6;
+				transform: rotate(10deg);
+					}
+
+			.contenedor #image2:hover{
+									transform: translate(20px,-5px);
+									border: 2px;
+									background-color:#82c3a6;
+						 }
+/* GQB Redes sociales y otros */
+			.contenedor2{
+					 	display: flex;
+					 	flex-direction: row;
+					 	flex-wrap: wrap;
+					 	background-color: #c6d5c5;
+					 	}
+					 	.bloquea{
+					 		order:1;
+					 		flex-grow: 5;
+					 		display: block;
+					 	}
+						.bloqueb{
+					 		order:2;
+					 		flex-grow: 5;
+					 		align-self: baseline;
+					 		display: block;
+					 	}
+						.bloquec{
+					 		order:3;
+					 		flex-grow: 5;
+					 		align-self: baseline;
+					 		display: block;
+					 	}
+						.bloqued{
+					 		order:4;
+					 		flex-grow: 5;
+					 		align-self: baseline;
+					 		display: block;
+					 	}
+						#p1{
+							text-align: center;
+						}
+
+						#redes{
+							width: 6%
+						}
+/* GQB Fin Redes y otros */
+
+/* GQB Inicio contenedor Paisajes */
+					.contenedorotro{
+						display: flex;
+						flex-wrap:wrap;
+						}
+					 .contenedorotro .que1{
+							order:1;
+							flex-grow: 1;
+							min-height: 100px;
+							flex: 1 2 30%;
+						}
+               .contenedorotro .que1 #image1{
+								-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+								filter: blur(10px);
+							 }
+
+						.contenedorotro .que2{
+							order:2;
+							flex-grow: 1;
+							min-height: 100px;
+							flex: 1 2 30%;
+						 }
+						 .contenedorotro .que2 #image2{
+							 -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+		 					filter: grayscale(100%);
+						 }
+
+						.contenedorotro .que3{
+											order:3;
+											flex-grow: 1;
+											min-height: 100px;
+											flex: 1 2 30%;
+            }
+						.contenedorotro .que3 #image3{
+							-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+							filter: sepia(90%);
+						}
+
+						.contenedorotro .que4{
+											order:4;
+											flex-grow: 1;
+											min-height: 100px;
+											flex: 1 2 30%;
+             }
+						 .contenedorotro .que4 #image4{
+							 -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+	 						filter: grayscale(100%);
+						 }
+
+						.contenedorotro .que5{
+											order:5;
+											flex-grow: 1;
+											min-height: 100px;
+											flex: 1 2 30%;
+	             }
+
+						 .contenedorotro .que6{
+											 order:6;
+											 flex-grow: 1;
+											 min-height: 100px;
+											 flex: 1 2 30%;
+									}
+							.contenedorotro .que6 #image6{
+								-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+								filter: grayscale(100%);
+									}
+
+
+/* GQB Fin contenedor Paisajes */
+
+@media screen and (max-width: 900px){
+
+	#contenido
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna1
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna2
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna3
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna4
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.bloquea{
+		order:1;
+		flex-grow: 5;
+		display: block;
+		width: 100%;
+	}
+	.bloqueb{
+		order:1;
+		flex-grow: 5;
+		display: block;
+			width: 100%;
+	}
+	.bloquec{
+		order:1;
+		flex-grow: 5;
+		display: block;
+			width: 100%;
+	}
+	.bloqued{
+		order:1;
+		flex-grow: 5;
+		display: block;
+			width: 100%;
+	}
+
+
+
+	header
+	{
+	width:100%;
+	}
+}
